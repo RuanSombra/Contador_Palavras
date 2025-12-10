@@ -32,9 +32,9 @@ class InputProvider {
 
   Future<String> getInput() async{
     print("=====================");
-    print("\nEscolha forma de entrada");
+    print("Escolha forma de entrada");
     print("\n1 - Digitar o texto manualmente;");
-    print("\n2 - Ler o arquivo .txt;");
+    print("2 - Ler o arquivo .txt;");
     stdout.write("> ");
 
     final option = stdin.readLineSync();
