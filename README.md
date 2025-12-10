@@ -1,2 +1,10 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+SINGLETON - O QUE É E POR QUE USAMOS?
+
+É um padrão de projeto que garante que só exista uma única instância da classe no programa inteiro.
+
+Neste projeto foi utilizado esse modelo, por ser:
+- Simples;
+- Fácil para treinar programação;
+- Perfeito para entender como as classes funcionam.
+
+  
