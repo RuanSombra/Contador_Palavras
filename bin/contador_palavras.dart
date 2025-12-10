@@ -6,7 +6,7 @@ void main() async {
   final inputProvider = InputProvider();  // Singleton
   final counter = WordCounter();
 
-  String text = await inputProvider.getText();
+  String text = await inputProvider.getUserText();
 
   int totalWords = counter.countWords(text);
   int totalCharacters = counter.countCharacters(text);
